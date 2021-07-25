@@ -1,0 +1,277 @@
+/* 
+Theme Name: KevinWp
+Author: kevin
+Version: 1.0
+
+*/
+body{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif; 
+    position: relative;
+    background-color:#3D3D3D !important;
+}
+.bg-dark{
+  background-color:#4D5652 !important;
+}
+main{
+    min-height: 50vh;
+    padding-top: 40px;
+    color:white;
+}
+
+footer{
+    position: relative;
+    bottom: -40px;
+    
+    background-color:#4D5652 !important;
+    width: 100%;
+    color: white;  
+    padding-top: 40px; 
+    padding-bottom: 40px; 
+}
+.footerlink{
+    list-style-type: none;
+}
+.footerlink a {
+    color:rgb(226, 226, 226);
+    font-size: 1.4rem;
+}
+.nav-link{
+    color:rgb(226, 226, 226) !important;
+}
+.social_logo{
+
+    width: 35px;
+    height: 35px;
+}
+
+
+h1{
+    color: #1DE9B6;
+}
+.navbar-brand{
+    color: #1DE9B6 !important;
+}
+h2{
+    color: #1DE9B6;
+}
+
+
+/* front page head area */
+.front-page-area{
+    width: 100%;
+    height: 400px;
+    position: relative;
+    padding: 50px;
+    padding-left: 10%;
+    padding-right: 13%;
+}
+
+.front-page-area-shape-1{
+    width: 100%;
+    height: 100px;
+    
+    border-top: solid 15px #1DE9B6;
+    border-left: solid 15px #1DE9B6;
+    border-right: solid 15px #1DE9B6;
+}
+.front-page-area-shape-2{
+    width: 100%;
+    height: 100px;
+    display:flex;
+    flex-direction:column;
+    justify-content: center;    
+    border-right: solid 15px #1DE9B6;
+}
+.front-page-area-shape-3{
+    width: 100%;
+    height: 100px;
+    
+    border-bottom: solid 15px #1DE9B6;
+    border-left: solid 15px #1DE9B6;
+    border-right: solid 15px #1DE9B6;
+}
+
+.blog-name{
+    position: relative;
+    left: -5%;
+    color: #1DE9B6;
+    font-weight: bold;
+}
+.blog-description{
+    position: relative;
+    left: -5%;
+    color: #1DE9B6;
+}
+
+@media only screen and (max-width: 600px) {
+    .blog-name{
+        position: relative;
+        left: -5%;
+        color: #1DE9B6;
+        font-weight: bold;
+        font-size: 1.6em;
+    }
+    .blog-description{
+        position: relative;
+        left: -5%;
+        color: #1DE9B6;
+        font-size: 1.2em;
+	
+    }
+  }
+
+  .header-img{
+      position: absolute;
+      z-index: -1;
+      width: auto;
+      height: auto;
+      opacity:0;
+  }
+
+  .header-img-1{
+      left: 25px;
+      bottom: 20px;
+      width: auto;
+      height: 60%;
+  }
+  .header-img-2{
+    right: 4px;
+    bottom: 15px;
+    width: auto;
+    height: 70%;
+  }
+  .header-img-3{
+    left: 35%;
+    bottom: 30px;
+    width: auto;
+    height: 45%;
+  }
+  .header-img-4{
+    left: 20%;
+    top: 20px;
+    width: auto;
+    height: 70%;
+  }
+  .header-img-5{
+    right: 25%;
+    top: 5px;
+    width: auto;
+    height: 75%;
+  }
+  
+  /* fade in and out animation */
+
+  .fade-in-out {
+    animation: fadeIn ease 8s;
+    -webkit-animation: fadeIn ease 8s;
+    -moz-animation: fadeIn ease 8s;
+    -o-animation: fadeIn ease 8s;
+    -ms-animation: fadeIn ease 8s;
+  }
+  @keyframes fadeIn {
+    0% {
+      opacity:0;
+    }
+    10% {
+      opacity:1;
+    }
+    90% {
+        opacity:1;
+    }
+    100% {
+        opacity:0;
+    }
+  }
+  
+  @-moz-keyframes fadeIn {
+    0% {
+        opacity:0;
+      }
+      10% {
+        opacity:1;
+      }
+      90% {
+          opacity:1;
+      }
+      100% {
+          opacity:0;
+      }
+  }
+  
+  @-webkit-keyframes fadeIn {
+    0% {
+        opacity:0;
+      }
+      10% {
+        opacity:1;
+      }
+      90% {
+          opacity:1;
+      }
+      100% {
+          opacity:0;
+      }
+  }
+  
+  @-o-keyframes fadeIn {
+    0% {
+        opacity:0;
+      }
+      10% {
+        opacity:1;
+      }
+      90% {
+          opacity:1;
+      }
+      100% {
+          opacity:0;
+      }
+  }
+  
+  @-ms-keyframes fadeIn {
+    0% {
+        opacity:0;
+      }
+      10% {
+        opacity:1;
+      }
+      90% {
+          opacity:1;
+      }
+      100% {
+          opacity:0;
+      }
+    }
+
+
+
+
+    /* link animation */
+.nav-link::after{
+  content:'';
+  height:5px;
+  width:0%;
+  background-color: #1DE9B6; 
+  display: block;
+  transition:0.5s;
+  
+}
+.nav-link:hover::after{
+  content:'';
+  height:5px;
+  width:100%;
+  background-color: #1DE9B6; 
+  display: block;
+  
+
+}
+
+
+/* buttons */
+ .wp-block-group__inner-container{
+  background-color:#3D3D3D !important;
+ 
+} 
+
+
+
